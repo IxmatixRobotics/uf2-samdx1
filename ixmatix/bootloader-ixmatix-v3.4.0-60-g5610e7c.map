@@ -1,0 +1,1084 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+                              build/ixmatix/hid.o (__gnu_thumb1_case_uqi)
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+                              build/ixmatix/cdc_enumerate.o (memcpy)
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+                              build/ixmatix/cdc_enumerate.o (memset)
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen-stub.o)
+                              build/ixmatix/cdc_enumerate.o (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+b_sharp_received    0x1               build/ixmatix/usart_sam_ba.o
+timerHigh           0x4               build/ixmatix/utils.o
+j                   0x1               build/ixmatix/sam_ba_monitor.o
+idx_rx_write        0x1               build/ixmatix/usart_sam_ba.o
+size_of_data        0x2               build/ixmatix/usart_sam_ba.o
+ctrlOutCache        0x44              build/ixmatix/cdc_enumerate.o
+length              0x4               build/ixmatix/sam_ba_monitor.o
+ptr                 0x4               build/ixmatix/sam_ba_monitor.o
+command             0x1               build/ixmatix/sam_ba_monitor.o
+resetHorizon        0x4               build/ixmatix/utils.o
+idx_tx_read         0x1               build/ixmatix/usart_sam_ba.o
+i                   0x4               build/ixmatix/sam_ba_monitor.o
+buffer_tx_usart     0x80              build/ixmatix/usart_sam_ba.o
+error_timeout       0x1               build/ixmatix/usart_sam_ba.o
+usb_endpoint_table  0x100             build/ixmatix/cdc_enumerate.o
+data                0x41              build/ixmatix/sam_ba_monitor.o
+mode_of_transfer    0x1               build/ixmatix/usart_sam_ba.o
+ptr_data            0x4               build/ixmatix/sam_ba_monitor.o
+idx_rx_read         0x1               build/ixmatix/usart_sam_ba.o
+sp                  0x4               build/ixmatix/sam_ba_monitor.o
+current_number      0x4               build/ixmatix/sam_ba_monitor.o
+idx_tx_write        0x1               build/ixmatix/usart_sam_ba.o
+endpointCache       0x220             build/ixmatix/cdc_enumerate.o
+u32tmp              0x4               build/ixmatix/sam_ba_monitor.o
+buffer_rx_usart     0x80              build/ixmatix/usart_sam_ba.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 build/ixmatix/flash_samd21.o
+ .data          0x0000000000000000        0x0 build/ixmatix/flash_samd21.o
+ .bss           0x0000000000000000        0x0 build/ixmatix/flash_samd21.o
+ .text.flash_write
+                0x0000000000000000       0x88 build/ixmatix/flash_samd21.o
+ .text          0x0000000000000000        0x0 build/ixmatix/init_samd21.o
+ .data          0x0000000000000000        0x0 build/ixmatix/init_samd21.o
+ .bss           0x0000000000000000        0x0 build/ixmatix/init_samd21.o
+ .data.g_interrupt_enabled
+                0x0000000000000000        0x1 build/ixmatix/init_samd21.o
+ .text          0x0000000000000000        0x0 build/ixmatix/startup_samd21.o
+ .data          0x0000000000000000        0x0 build/ixmatix/startup_samd21.o
+ .bss           0x0000000000000000        0x0 build/ixmatix/startup_samd21.o
+ .text          0x0000000000000000        0x0 build/ixmatix/usart_sam_ba.o
+ .data          0x0000000000000000        0x0 build/ixmatix/usart_sam_ba.o
+ .bss           0x0000000000000000        0x0 build/ixmatix/usart_sam_ba.o
+ .text.usart_open
+                0x0000000000000000       0xbc build/ixmatix/usart_sam_ba.o
+ .text.usart_close
+                0x0000000000000000       0x10 build/ixmatix/usart_sam_ba.o
+ .text.usart_putc
+                0x0000000000000000       0x14 build/ixmatix/usart_sam_ba.o
+ .text.usart_is_rx_ready
+                0x0000000000000000       0x10 build/ixmatix/usart_sam_ba.o
+ .text.usart_getc
+                0x0000000000000000       0x18 build/ixmatix/usart_sam_ba.o
+ .text.usart_sharp_received
+                0x0000000000000000       0x1a build/ixmatix/usart_sam_ba.o
+ .text.usart_readc
+                0x0000000000000000       0x20 build/ixmatix/usart_sam_ba.o
+ .text.usart_putdata
+                0x0000000000000000       0x1a build/ixmatix/usart_sam_ba.o
+ .text.usart_getdata
+                0x0000000000000000        0xe build/ixmatix/usart_sam_ba.o
+ .text.getbytes
+                0x0000000000000000       0x68 build/ixmatix/usart_sam_ba.o
+ .text.getPacket
+                0x0000000000000000       0x70 build/ixmatix/usart_sam_ba.o
+ .text.usart_putdata_xmd
+                0x0000000000000000      0x110 build/ixmatix/usart_sam_ba.o
+ .text.usart_getdata_xmd
+                0x0000000000000000       0xa4 build/ixmatix/usart_sam_ba.o
+ COMMON         0x0000000000000000      0x109 build/ixmatix/usart_sam_ba.o
+ .text          0x0000000000000000        0x0 build/ixmatix/screen.o
+ .data          0x0000000000000000        0x0 build/ixmatix/screen.o
+ .bss           0x0000000000000000        0x0 build/ixmatix/screen.o
+ .debug_info    0x0000000000000000      0x8e3 build/ixmatix/screen.o
+ .debug_abbrev  0x0000000000000000      0x18e build/ixmatix/screen.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/ixmatix/screen.o
+ .debug_line    0x0000000000000000      0x105 build/ixmatix/screen.o
+ .debug_str     0x0000000000000000      0x5b0 build/ixmatix/screen.o
+ .comment       0x0000000000000000       0x32 build/ixmatix/screen.o
+ .ARM.attributes
+                0x0000000000000000       0x32 build/ixmatix/screen.o
+ .text          0x0000000000000000        0x0 build/ixmatix/images.o
+ .data          0x0000000000000000        0x0 build/ixmatix/images.o
+ .bss           0x0000000000000000        0x0 build/ixmatix/images.o
+ .rodata.arrowLogo
+                0x0000000000000000       0x39 build/ixmatix/images.o
+ .rodata.fileLogo
+                0x0000000000000000       0x4a build/ixmatix/images.o
+ .rodata.font8  0x0000000000000000      0x240 build/ixmatix/images.o
+ .rodata.pendriveLogo
+                0x0000000000000000       0x3e build/ixmatix/images.o
+ .debug_info    0x0000000000000000      0x11f build/ixmatix/images.o
+ .debug_abbrev  0x0000000000000000       0x66 build/ixmatix/images.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/ixmatix/images.o
+ .debug_line    0x0000000000000000       0x82 build/ixmatix/images.o
+ .debug_str     0x0000000000000000      0x1a8 build/ixmatix/images.o
+ .comment       0x0000000000000000       0x32 build/ixmatix/images.o
+ .ARM.attributes
+                0x0000000000000000       0x32 build/ixmatix/images.o
+ .text          0x0000000000000000        0x0 build/ixmatix/utils.o
+ .data          0x0000000000000000        0x0 build/ixmatix/utils.o
+ .bss           0x0000000000000000        0x0 build/ixmatix/utils.o
+ .text.panic    0x0000000000000000        0x2 build/ixmatix/utils.o
+ .text          0x0000000000000000        0x0 build/ixmatix/cdc_enumerate.o
+ .data          0x0000000000000000        0x0 build/ixmatix/cdc_enumerate.o
+ .bss           0x0000000000000000        0x0 build/ixmatix/cdc_enumerate.o
+ .text.reset_ep
+                0x0000000000000000       0x24 build/ixmatix/cdc_enumerate.o
+ .text.stall_ep
+                0x0000000000000000       0x2c build/ixmatix/cdc_enumerate.o
+ .text.cdc_is_rx_ready
+                0x0000000000000000       0x20 build/ixmatix/cdc_enumerate.o
+ .text          0x0000000000000000        0x0 build/ixmatix/fat.o
+ .data          0x0000000000000000        0x0 build/ixmatix/fat.o
+ .bss           0x0000000000000000        0x0 build/ixmatix/fat.o
+ .text          0x0000000000000000        0x0 build/ixmatix/main.o
+ .data          0x0000000000000000        0x0 build/ixmatix/main.o
+ .bss           0x0000000000000000        0x0 build/ixmatix/main.o
+ .text          0x0000000000000000        0x0 build/ixmatix/msc.o
+ .data          0x0000000000000000        0x0 build/ixmatix/msc.o
+ .bss           0x0000000000000000        0x0 build/ixmatix/msc.o
+ .text.msc_reset
+                0x0000000000000000       0x1c build/ixmatix/msc.o
+ .text.udd_ep_set_halt
+                0x0000000000000000       0x10 build/ixmatix/msc.o
+ .bss.mscReset  0x0000000000000000        0x1 build/ixmatix/msc.o
+ .text          0x0000000000000000        0x0 build/ixmatix/sam_ba_monitor.o
+ .data          0x0000000000000000        0x0 build/ixmatix/sam_ba_monitor.o
+ .bss           0x0000000000000000        0x0 build/ixmatix/sam_ba_monitor.o
+ .text.sam_ba_monitor_init
+                0x0000000000000000        0x2 build/ixmatix/sam_ba_monitor.o
+ .text.sam_ba_putdata_term
+                0x0000000000000000        0x8 build/ixmatix/sam_ba_monitor.o
+ .text          0x0000000000000000        0x0 build/ixmatix/uart_driver.o
+ .data          0x0000000000000000        0x0 build/ixmatix/uart_driver.o
+ .bss           0x0000000000000000        0x0 build/ixmatix/uart_driver.o
+ .text.uart_get_sercom_index
+                0x0000000000000000       0x30 build/ixmatix/uart_driver.o
+ .text.uart_basic_init
+                0x0000000000000000       0x58 build/ixmatix/uart_driver.o
+ .text.uart_disable
+                0x0000000000000000       0x10 build/ixmatix/uart_driver.o
+ .text.uart_write_byte
+                0x0000000000000000        0xc build/ixmatix/uart_driver.o
+ .text.uart_read_byte
+                0x0000000000000000       0x28 build/ixmatix/uart_driver.o
+ .text.uart_write_buffer_polled
+                0x0000000000000000       0x20 build/ixmatix/uart_driver.o
+ .text.uart_read_buffer_polled
+                0x0000000000000000       0x3c build/ixmatix/uart_driver.o
+ .rodata        0x0000000000000000       0x18 build/ixmatix/uart_driver.o
+ .bss.uart_drv_error_flag
+                0x0000000000000000        0x1 build/ixmatix/uart_driver.o
+ .debug_info    0x0000000000000000     0x2648 build/ixmatix/uart_driver.o
+ .debug_abbrev  0x0000000000000000      0x2a2 build/ixmatix/uart_driver.o
+ .debug_loc     0x0000000000000000      0x135 build/ixmatix/uart_driver.o
+ .debug_aranges
+                0x0000000000000000       0x50 build/ixmatix/uart_driver.o
+ .debug_ranges  0x0000000000000000       0x40 build/ixmatix/uart_driver.o
+ .debug_line    0x0000000000000000      0x263 build/ixmatix/uart_driver.o
+ .debug_str     0x0000000000000000      0xdca build/ixmatix/uart_driver.o
+ .comment       0x0000000000000000       0x32 build/ixmatix/uart_driver.o
+ .debug_frame   0x0000000000000000       0xac build/ixmatix/uart_driver.o
+ .ARM.attributes
+                0x0000000000000000       0x32 build/ixmatix/uart_driver.o
+ .text          0x0000000000000000        0x0 build/ixmatix/hid.o
+ .data          0x0000000000000000        0x0 build/ixmatix/hid.o
+ .bss           0x0000000000000000        0x0 build/ixmatix/hid.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen-stub.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen-stub.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000000000000 0x0000000000002000 xr
+ram              0x0000000020000000 0x0000000000008000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/ixmatix/flash_samd21.o
+LOAD build/ixmatix/init_samd21.o
+LOAD build/ixmatix/startup_samd21.o
+LOAD build/ixmatix/usart_sam_ba.o
+LOAD build/ixmatix/screen.o
+LOAD build/ixmatix/images.o
+LOAD build/ixmatix/utils.o
+LOAD build/ixmatix/cdc_enumerate.o
+LOAD build/ixmatix/fat.o
+LOAD build/ixmatix/main.o
+LOAD build/ixmatix/msc.o
+LOAD build/ixmatix/sam_ba_monitor.o
+LOAD build/ixmatix/uart_driver.o
+LOAD build/ixmatix/hid.o
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a
+END GROUP
+                0x0000000000002000                STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:DEFINED (__stack_size__)?__stack_size__:0x2000
+
+.text           0x0000000000000000     0x1ddc
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                _sfixed = .
+ *(.vectors .vectors.*)
+ .vectors       0x0000000000000000       0xb4 build/ixmatix/startup_samd21.o
+                0x0000000000000000                exception_table
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.flash_erase_row
+                0x00000000000000b4       0x28 build/ixmatix/flash_samd21.o
+                0x00000000000000b4                flash_erase_row
+ .text.flash_erase_to_end
+                0x00000000000000dc       0x1c build/ixmatix/flash_samd21.o
+                0x00000000000000dc                flash_erase_to_end
+ .text.copy_words
+                0x00000000000000f8       0x14 build/ixmatix/flash_samd21.o
+                0x00000000000000f8                copy_words
+ .text.flash_write_words
+                0x000000000000010c       0x54 build/ixmatix/flash_samd21.o
+                0x000000000000010c                flash_write_words
+ .text.flash_write_row
+                0x0000000000000160       0x2e build/ixmatix/flash_samd21.o
+                0x0000000000000160                flash_write_row
+ *fill*         0x000000000000018e        0x2 
+ .text.gclk_sync
+                0x0000000000000190       0x10 build/ixmatix/init_samd21.o
+ .text.dfll_sync
+                0x00000000000001a0       0x10 build/ixmatix/init_samd21.o
+ .text.system_init
+                0x00000000000001b0       0xcc build/ixmatix/init_samd21.o
+                0x00000000000001b0                system_init
+ .text.SysTick_Handler
+                0x000000000000027c        0x8 build/ixmatix/init_samd21.o
+                0x000000000000027c                SysTick_Handler
+ .text.Dummy_Handler
+                0x0000000000000284        0x2 build/ixmatix/startup_samd21.o
+                0x0000000000000284                DMAC_Handler
+                0x0000000000000284                AC_Handler
+                0x0000000000000284                PendSV_Handler
+                0x0000000000000284                NMI_Handler
+                0x0000000000000284                SERCOM1_Handler
+                0x0000000000000284                ADC_Handler
+                0x0000000000000284                TCC1_Handler
+                0x0000000000000284                SERCOM2_Handler
+                0x0000000000000284                TCC0_Handler
+                0x0000000000000284                RTC_Handler
+                0x0000000000000284                EIC_Handler
+                0x0000000000000284                WDT_Handler
+                0x0000000000000284                TC4_Handler
+                0x0000000000000284                USB_Handler
+                0x0000000000000284                TC3_Handler
+                0x0000000000000284                Dummy_Handler
+                0x0000000000000284                PM_Handler
+                0x0000000000000284                SERCOM5_Handler
+                0x0000000000000284                SVC_Handler
+                0x0000000000000284                TCC2_Handler
+                0x0000000000000284                EVSYS_Handler
+                0x0000000000000284                SERCOM3_Handler
+                0x0000000000000284                SERCOM4_Handler
+                0x0000000000000284                I2S_Handler
+                0x0000000000000284                NVMCTRL_Handler
+                0x0000000000000284                SERCOM0_Handler
+                0x0000000000000284                DAC_Handler
+                0x0000000000000284                PTC_Handler
+                0x0000000000000284                TC5_Handler
+                0x0000000000000284                SYSCTRL_Handler
+ .text.HardFault_Handler
+                0x0000000000000286        0x2 build/ixmatix/startup_samd21.o
+                0x0000000000000286                HardFault_Handler
+ .text.Reset_Handler
+                0x0000000000000288       0xb0 build/ixmatix/startup_samd21.o
+                0x0000000000000288                Reset_Handler
+ .text.add_crc  0x0000000000000338       0x54 build/ixmatix/usart_sam_ba.o
+                0x0000000000000338                add_crc
+ .text.delay    0x000000000000038c       0x10 build/ixmatix/utils.o
+                0x000000000000038c                delay
+ .text.writeNum
+                0x000000000000039c       0x3c build/ixmatix/utils.o
+                0x000000000000039c                writeNum
+ .text.resetIntoApp
+                0x00000000000003d8       0x28 build/ixmatix/utils.o
+                0x00000000000003d8                resetIntoApp
+ .text.timerTick
+                0x0000000000000400       0x40 build/ixmatix/utils.o
+                0x0000000000000400                timerTick
+ .text.resetIntoBootloader
+                0x0000000000000440       0x28 build/ixmatix/utils.o
+                0x0000000000000440                resetIntoBootloader
+ .text.led_tick
+                0x0000000000000468       0x80 build/ixmatix/utils.o
+                0x0000000000000468                led_tick
+ .text.led_signal
+                0x00000000000004e8       0x2c build/ixmatix/utils.o
+                0x00000000000004e8                led_signal
+ .text.led_init
+                0x0000000000000514       0x10 build/ixmatix/utils.o
+                0x0000000000000514                led_init
+ .text.RGBLED_set_color
+                0x0000000000000524        0x2 build/ixmatix/utils.o
+                0x0000000000000524                RGBLED_set_color
+ *fill*         0x0000000000000526        0x2 
+ .text.AT91F_InitUSB
+                0x0000000000000528      0x108 build/ixmatix/cdc_enumerate.o
+                0x0000000000000528                AT91F_InitUSB
+ .text.USB_ReadCore
+                0x0000000000000630       0xe0 build/ixmatix/cdc_enumerate.o
+                0x0000000000000630                USB_ReadCore
+ .text.USB_Read
+                0x0000000000000710        0xa build/ixmatix/cdc_enumerate.o
+                0x0000000000000710                USB_Read
+ .text.USB_ReadBlocking
+                0x000000000000071a       0x22 build/ixmatix/cdc_enumerate.o
+                0x000000000000071a                USB_ReadBlocking
+ .text.USB_WriteCore
+                0x000000000000073c       0x94 build/ixmatix/cdc_enumerate.o
+                0x000000000000073c                USB_WriteCore
+ .text.USB_Write
+                0x00000000000007d0        0xa build/ixmatix/cdc_enumerate.o
+                0x00000000000007d0                USB_Write
+ *fill*         0x00000000000007da        0x2 
+ .text.sendCtrl
+                0x00000000000007dc       0x1c build/ixmatix/cdc_enumerate.o
+ .text.AT91F_USB_SendZlp
+                0x00000000000007f8       0x10 build/ixmatix/cdc_enumerate.o
+                0x00000000000007f8                AT91F_USB_SendZlp
+ .text.USB_Ok   0x0000000000000808      0x4fc build/ixmatix/cdc_enumerate.o
+                0x0000000000000808                USB_Ok
+ .text.usb_init
+                0x0000000000000d04       0x20 build/ixmatix/cdc_enumerate.o
+                0x0000000000000d04                usb_init
+ .text.cdc_write_buf
+                0x0000000000000d24        0xe build/ixmatix/cdc_enumerate.o
+                0x0000000000000d24                cdc_write_buf
+ .text.cdc_write_buf_xmd
+                0x0000000000000d32        0xe build/ixmatix/cdc_enumerate.o
+                0x0000000000000d32                cdc_write_buf_xmd
+ .text.cdc_read_buf
+                0x0000000000000d40       0x1e build/ixmatix/cdc_enumerate.o
+                0x0000000000000d40                cdc_read_buf
+ .text.cdc_read_buf_xmd
+                0x0000000000000d5e       0x22 build/ixmatix/cdc_enumerate.o
+                0x0000000000000d5e                cdc_read_buf_xmd
+ .text.padded_memcpy
+                0x0000000000000d80       0x20 build/ixmatix/fat.o
+                0x0000000000000d80                padded_memcpy
+ .text.read_block
+                0x0000000000000da0      0x170 build/ixmatix/fat.o
+                0x0000000000000da0                read_block
+ .text.write_block
+                0x0000000000000f10       0xe8 build/ixmatix/fat.o
+                0x0000000000000f10                write_block
+ .text.startup.main
+                0x0000000000000ff8      0x124 build/ixmatix/main.o
+                0x0000000000000ff8                main
+ .text.udi_msc_clear_sense
+                0x000000000000111c       0x1c build/ixmatix/msc.o
+ .text.handover_flash
+                0x0000000000001138       0x34 build/ixmatix/msc.o
+ .text.try_read_cbw
+                0x000000000000116c       0x2c build/ixmatix/msc.o
+                0x000000000000116c                try_read_cbw
+ .text.udi_msc_csw_send
+                0x0000000000001198       0x14 build/ixmatix/msc.o
+                0x0000000000001198                udi_msc_csw_send
+ .text.udi_msc_csw_process
+                0x00000000000011ac       0x38 build/ixmatix/msc.o
+ .text.udi_msc_data_send
+                0x00000000000011e4       0x6c build/ixmatix/msc.o
+ .text.udi_msc_spc_mode_sense
+                0x0000000000001250       0x70 build/ixmatix/msc.o
+ .text.udi_msc_sbc_trans
+                0x00000000000012c0       0xc4 build/ixmatix/msc.o
+ .text.process_msc
+                0x0000000000001384      0x14c build/ixmatix/msc.o
+                0x0000000000001384                process_msc
+ .text.handoverPrep
+                0x00000000000014d0       0x24 build/ixmatix/msc.o
+                0x00000000000014d0                handoverPrep
+ .text.handover
+                0x00000000000014f4       0xe4 build/ixmatix/msc.o
+ .text.call_applet
+                0x00000000000015d8       0x24 build/ixmatix/sam_ba_monitor.o
+                0x00000000000015d8                call_applet
+ .text.put_uint32
+                0x00000000000015fc       0x16 build/ixmatix/sam_ba_monitor.o
+                0x00000000000015fc                put_uint32
+ *fill*         0x0000000000001612        0x2 
+ .text.sam_ba_monitor_run
+                0x0000000000001614      0x258 build/ixmatix/sam_ba_monitor.o
+                0x0000000000001614                sam_ba_monitor_run
+ .text.recv_hf2
+                0x000000000000186c       0x56 build/ixmatix/hid.o
+                0x000000000000186c                recv_hf2
+ .text.send_hf2
+                0x00000000000018c2       0x46 build/ixmatix/hid.o
+                0x00000000000018c2                send_hf2
+ .text.send_hf2_response
+                0x0000000000001908       0x14 build/ixmatix/hid.o
+                0x0000000000001908                send_hf2_response
+ .text.process_core
+                0x000000000000191c       0xfc build/ixmatix/hid.o
+                0x000000000000191c                process_core
+ .text.process_hid
+                0x0000000000001a18       0x28 build/ixmatix/hid.o
+                0x0000000000001a18                process_hid
+ .text.hidHandoverLoop
+                0x0000000000001a40       0x24 build/ixmatix/hid.o
+                0x0000000000001a40                hidHandoverLoop
+ .text          0x0000000000001a64       0x14 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+                0x0000000000001a64                __gnu_thumb1_case_uqi
+ .text          0x0000000000001a78       0x84 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+                0x0000000000001a78                memcpy
+ .text          0x0000000000001afc       0x94 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+                0x0000000000001afc                memset
+ .text          0x0000000000001b90       0x64 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen-stub.o)
+                0x0000000000001b90                strlen
+ *(.glue_7t)
+ .glue_7t       0x0000000000001bf4        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000000000001bf4        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ .rodata        0x0000000000001bf4       0x10 build/ixmatix/cdc_enumerate.o
+ .rodata.devDescriptor
+                0x0000000000001c04       0x12 build/ixmatix/cdc_enumerate.o
+                0x0000000000001c04                devDescriptor
+ *fill*         0x0000000000001c16        0x2 
+ .rodata.hidDescriptor
+                0x0000000000001c18       0x21 build/ixmatix/cdc_enumerate.o
+                0x0000000000001c18                hidDescriptor
+ .rodata.str1.1
+                0x0000000000001c39       0x19 build/ixmatix/cdc_enumerate.o
+ *fill*         0x0000000000001c52        0x2 
+ .rodata.string_descriptors
+                0x0000000000001c54       0x10 build/ixmatix/cdc_enumerate.o
+ .rodata.BootBlock
+                0x0000000000001c64       0x3e build/ixmatix/fat.o
+ .rodata.indexFile
+                0x0000000000001ca2       0x67 build/ixmatix/fat.o
+                0x0000000000001ca2                indexFile
+ *fill*         0x0000000000001d09        0x3 
+ .rodata.info   0x0000000000001d0c       0x30 build/ixmatix/fat.o
+ .rodata.infoUf2File
+                0x0000000000001d3c       0x59 build/ixmatix/fat.o
+                0x0000000000001d3c                infoUf2File
+ .rodata        0x0000000000001d95        0xc build/ixmatix/msc.o
+ .rodata.process_msc.str1.1
+                0x0000000000001da1        0x8 build/ixmatix/msc.o
+ .rodata.fullVersion
+                0x0000000000001da1       0x2a build/ixmatix/sam_ba_monitor.o
+ .rodata.sam_ba_monitor_run.str1.1
+                0x0000000000001dcb       0x10 build/ixmatix/sam_ba_monitor.o
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000001ddc                . = ALIGN (0x4)
+ *fill*         0x0000000000001ddb        0x1 
+ *(.init)
+                0x0000000000001ddc                . = ALIGN (0x4)
+                0x0000000000001ddc                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000000000001ddc                __preinit_array_end = .
+                0x0000000000001ddc                . = ALIGN (0x4)
+                0x0000000000001ddc                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x0000000000001ddc                __init_array_end = .
+                0x0000000000001ddc                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x0000000000001ddc                . = ALIGN (0x4)
+                0x0000000000001ddc                _efixed = .
+                [!provide]                        PROVIDE (__exidx_start, .)
+
+.vfp11_veneer   0x0000000000001ddc        0x0
+ .vfp11_veneer  0x0000000000001ddc        0x0 linker stubs
+
+.v4_bx          0x0000000000001ddc        0x0
+ .v4_bx         0x0000000000001ddc        0x0 linker stubs
+
+.iplt           0x0000000000001ddc        0x0
+ .iplt          0x0000000000001ddc        0x0 build/ixmatix/flash_samd21.o
+
+.igot.plt       0x0000000000001ddc        0x0
+ .igot.plt      0x0000000000001ddc        0x0 build/ixmatix/flash_samd21.o
+
+.rel.dyn        0x0000000000001ddc        0x0
+ .rel.iplt      0x0000000000001ddc        0x0 build/ixmatix/flash_samd21.o
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                        PROVIDE (__exidx_end, .)
+                0x0000000000001ddc                . = ALIGN (0x4)
+                0x0000000000001ddc                _etext = .
+
+.relocate       0x0000000020000000      0x1cc load address 0x0000000000001ddc
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _srelocate = .
+ *(.ramfunc .ramfunc.*)
+ *(.data .data.*)
+ .data.led_tick_step
+                0x0000000020000000        0x1 build/ixmatix/utils.o
+                0x0000000020000000                led_tick_step
+ .data.limit    0x0000000020000001        0x1 build/ixmatix/utils.o
+ *fill*         0x0000000020000002        0x2 
+ .data.bosDescriptor
+                0x0000000020000004       0x39 build/ixmatix/cdc_enumerate.o
+ *fill*         0x000000002000003d        0x3 
+ .data.cfgDescriptor
+                0x0000000020000040       0x99 build/ixmatix/cdc_enumerate.o
+                0x0000000020000040                cfgDescriptor
+ *fill*         0x00000000200000d9        0x3 
+ .data.hidCfgDescriptor
+                0x00000000200000dc        0x9 build/ixmatix/cdc_enumerate.o
+                0x00000000200000dc                hidCfgDescriptor
+ *fill*         0x00000000200000e5        0x3 
+ .data.line_coding
+                0x00000000200000e8        0x8 build/ixmatix/cdc_enumerate.o
+ .data.msOS20Descriptor
+                0x00000000200000f0       0xaa build/ixmatix/cdc_enumerate.o
+ .data.udi_msc_csw
+                0x000000002000019a        0xd build/ixmatix/msc.o
+ *fill*         0x00000000200001a7        0x1 
+ .data.udi_msc_inquiry_data.11975
+                0x00000000200001a8       0x24 build/ixmatix/msc.o
+                0x00000000200001cc                . = ALIGN (0x4)
+                0x00000000200001cc                _erelocate = .
+
+.bss            0x00000000200001cc      0xc08 load address 0x0000000000001fa8
+                0x00000000200001cc                . = ALIGN (0x4)
+                0x00000000200001cc                _sbss = .
+                0x00000000200001cc                _szero = .
+ *(.bss .bss.*)
+ .bss.crcCache  0x00000000200001cc      0x200 build/ixmatix/usart_sam_ba.o
+ .bss.now       0x00000000200003cc        0x4 build/ixmatix/utils.o
+ .bss.signal_end
+                0x00000000200003d0        0x4 build/ixmatix/utils.o
+ .bss.timerLow  0x00000000200003d4        0x4 build/ixmatix/utils.o
+ .bss.currentConfiguration
+                0x00000000200003d8        0x1 build/ixmatix/cdc_enumerate.o
+ .bss.serial_number
+                0x00000000200003d9       0x21 build/ixmatix/cdc_enumerate.o
+ .bss.wLength   0x00000000200003fa        0x2 build/ixmatix/cdc_enumerate.o
+ .bss.main_b_cdc_enable
+                0x00000000200003fc        0x1 build/ixmatix/main.o
+ *fill*         0x00000000200003fd        0x3 
+ .bss.block_buffer
+                0x0000000020000400      0x200 build/ixmatix/msc.o
+ .bss.sense.11998
+                0x0000000020000600       0x14 build/ixmatix/msc.o
+ .bss.udi_msc_capacity.12008
+                0x0000000020000614        0x8 build/ixmatix/msc.o
+ .bss.udi_msc_cbw
+                0x000000002000061c       0x1f build/ixmatix/msc.o
+ .bss.udi_msc_sense
+                0x000000002000063b       0x12 build/ixmatix/msc.o
+ *fill*         0x000000002000064d        0x3 
+ .bss.usbWriteState
+                0x0000000020000650       0x98 build/ixmatix/msc.o
+ .bss.b_sam_ba_interface_usart
+                0x00000000200006e8        0x1 build/ixmatix/sam_ba_monitor.o
+                0x00000000200006e8                b_sam_ba_interface_usart
+ *fill*         0x00000000200006e9        0x3 
+ .bss.src_buff_addr.11420
+                0x00000000200006ec        0x4 build/ixmatix/sam_ba_monitor.o
+ .bss.hidbufData
+                0x00000000200006f0      0x188 build/ixmatix/hid.o
+ .bss.webbufData
+                0x0000000020000878      0x188 build/ixmatix/hid.o
+ *(COMMON)
+ COMMON         0x0000000020000a00        0x8 build/ixmatix/utils.o
+                0x0000000020000a00                timerHigh
+                0x0000000020000a04                resetHorizon
+ COMMON         0x0000000020000a08      0x364 build/ixmatix/cdc_enumerate.o
+                0x0000000020000a08                ctrlOutCache
+                0x0000000020000a4c                usb_endpoint_table
+                0x0000000020000b4c                endpointCache
+ COMMON         0x0000000020000d6c       0x68 build/ixmatix/sam_ba_monitor.o
+                0x0000000020000d6c                j
+                0x0000000020000d70                length
+                0x0000000020000d74                ptr
+                0x0000000020000d78                command
+                0x0000000020000d7c                i
+                0x0000000020000d80                data
+                0x0000000020000dc4                ptr_data
+                0x0000000020000dc8                sp
+                0x0000000020000dcc                current_number
+                0x0000000020000dd0                u32tmp
+                0x0000000020000dd4                . = ALIGN (0x4)
+                0x0000000020000dd4                _ebss = .
+                0x0000000020000dd4                _ezero = .
+
+.stack          0x0000000020000dd4     0x2004 load address 0x0000000000002bb0
+                0x0000000020000dd8                . = ALIGN (0x8)
+ *fill*         0x0000000020000dd4        0x4 
+                0x0000000020000dd8                _sstack = .
+                0x0000000020002dd8                . = (. + STACK_SIZE)
+ *fill*         0x0000000020000dd8     0x2000 
+                0x0000000020002dd8                . = ALIGN (0x8)
+                0x0000000020002dd8                _estack = .
+                0x0000000020002dd8                . = ALIGN (0x4)
+                0x0000000020002dd8                _end = .
+                0x0000000000001ff0                _binfo_start = 0x1ff0
+
+.binfo          0x0000000000001ff0       0x10
+ *(.binfo)
+ .binfo         0x0000000000001ff0       0x10 build/ixmatix/msc.o
+                0x0000000000001ff0                binfo
+OUTPUT(build/ixmatix/bootloader-ixmatix-v3.4.0-60-g5610e7c.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000    0x19986
+ .debug_info    0x0000000000000000      0xf8f build/ixmatix/flash_samd21.o
+ .debug_info    0x0000000000000f8f     0x2325 build/ixmatix/init_samd21.o
+ .debug_info    0x00000000000032b4     0x35cc build/ixmatix/startup_samd21.o
+ .debug_info    0x0000000000006880     0x3cf3 build/ixmatix/usart_sam_ba.o
+ .debug_info    0x000000000000a573     0x121f build/ixmatix/utils.o
+ .debug_info    0x000000000000b792     0x441b build/ixmatix/cdc_enumerate.o
+ .debug_info    0x000000000000fbad      0xfb4 build/ixmatix/fat.o
+ .debug_info    0x0000000000010b61     0x1968 build/ixmatix/main.o
+ .debug_info    0x00000000000124c9     0x38bf build/ixmatix/msc.o
+ .debug_info    0x0000000000015d88      0xdec build/ixmatix/sam_ba_monitor.o
+ .debug_info    0x0000000000016b74     0x1235 build/ixmatix/hid.o
+ .debug_info    0x0000000000017da9       0xbf /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+ .debug_info    0x0000000000017e68      0x92f /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_info    0x0000000000018797      0x916 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .debug_info    0x00000000000190ad      0x8d9 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen-stub.o)
+
+.debug_abbrev   0x0000000000000000     0x2b5b
+ .debug_abbrev  0x0000000000000000      0x2af build/ixmatix/flash_samd21.o
+ .debug_abbrev  0x00000000000002af      0x321 build/ixmatix/init_samd21.o
+ .debug_abbrev  0x00000000000005d0      0x25b build/ixmatix/startup_samd21.o
+ .debug_abbrev  0x000000000000082b      0x47e build/ixmatix/usart_sam_ba.o
+ .debug_abbrev  0x0000000000000ca9      0x35d build/ixmatix/utils.o
+ .debug_abbrev  0x0000000000001006      0x47c build/ixmatix/cdc_enumerate.o
+ .debug_abbrev  0x0000000000001482      0x301 build/ixmatix/fat.o
+ .debug_abbrev  0x0000000000001783      0x354 build/ixmatix/main.o
+ .debug_abbrev  0x0000000000001ad7      0x4c1 build/ixmatix/msc.o
+ .debug_abbrev  0x0000000000001f98      0x377 build/ixmatix/sam_ba_monitor.o
+ .debug_abbrev  0x000000000000230f      0x385 build/ixmatix/hid.o
+ .debug_abbrev  0x0000000000002694       0x14 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+ .debug_abbrev  0x00000000000026a8      0x1a3 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_abbrev  0x000000000000284b      0x197 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .debug_abbrev  0x00000000000029e2      0x179 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen-stub.o)
+
+.debug_loc      0x0000000000000000     0x2d60
+ .debug_loc     0x0000000000000000      0x3b9 build/ixmatix/flash_samd21.o
+ .debug_loc     0x00000000000003b9       0x78 build/ixmatix/init_samd21.o
+ .debug_loc     0x0000000000000431       0x2b build/ixmatix/startup_samd21.o
+ .debug_loc     0x000000000000045c      0x7e9 build/ixmatix/usart_sam_ba.o
+ .debug_loc     0x0000000000000c45       0xed build/ixmatix/utils.o
+ .debug_loc     0x0000000000000d32      0xb0e build/ixmatix/cdc_enumerate.o
+ .debug_loc     0x0000000000001840      0x4a7 build/ixmatix/fat.o
+ .debug_loc     0x0000000000001ce7       0x6e build/ixmatix/main.o
+ .debug_loc     0x0000000000001d55      0x4a0 build/ixmatix/msc.o
+ .debug_loc     0x00000000000021f5      0x1b7 build/ixmatix/sam_ba_monitor.o
+ .debug_loc     0x00000000000023ac      0x492 build/ixmatix/hid.o
+ .debug_loc     0x000000000000283e      0x2c0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_loc     0x0000000000002afe      0x1a4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .debug_loc     0x0000000000002ca2       0xbe /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen-stub.o)
+
+.debug_aranges  0x0000000000000000      0x410
+ .debug_aranges
+                0x0000000000000000       0x48 build/ixmatix/flash_samd21.o
+ .debug_aranges
+                0x0000000000000048       0x38 build/ixmatix/init_samd21.o
+ .debug_aranges
+                0x0000000000000080       0x30 build/ixmatix/startup_samd21.o
+ .debug_aranges
+                0x00000000000000b0       0x88 build/ixmatix/usart_sam_ba.o
+ .debug_aranges
+                0x0000000000000138       0x68 build/ixmatix/utils.o
+ .debug_aranges
+                0x00000000000001a0       0x98 build/ixmatix/cdc_enumerate.o
+ .debug_aranges
+                0x0000000000000238       0x30 build/ixmatix/fat.o
+ .debug_aranges
+                0x0000000000000268       0x20 build/ixmatix/main.o
+ .debug_aranges
+                0x0000000000000288       0x80 build/ixmatix/msc.o
+ .debug_aranges
+                0x0000000000000308       0x40 build/ixmatix/sam_ba_monitor.o
+ .debug_aranges
+                0x0000000000000348       0x48 build/ixmatix/hid.o
+ .debug_aranges
+                0x0000000000000390       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+ .debug_aranges
+                0x00000000000003b0       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_aranges
+                0x00000000000003d0       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .debug_aranges
+                0x00000000000003f0       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen-stub.o)
+
+.debug_ranges   0x0000000000000000      0x5b0
+ .debug_ranges  0x0000000000000000       0xa0 build/ixmatix/flash_samd21.o
+ .debug_ranges  0x00000000000000a0       0x48 build/ixmatix/init_samd21.o
+ .debug_ranges  0x00000000000000e8       0x20 build/ixmatix/startup_samd21.o
+ .debug_ranges  0x0000000000000108       0x78 build/ixmatix/usart_sam_ba.o
+ .debug_ranges  0x0000000000000180       0x78 build/ixmatix/utils.o
+ .debug_ranges  0x00000000000001f8       0xd8 build/ixmatix/cdc_enumerate.o
+ .debug_ranges  0x00000000000002d0       0xf8 build/ixmatix/fat.o
+ .debug_ranges  0x00000000000003c8       0x28 build/ixmatix/main.o
+ .debug_ranges  0x00000000000003f0       0xd8 build/ixmatix/msc.o
+ .debug_ranges  0x00000000000004c8       0x60 build/ixmatix/sam_ba_monitor.o
+ .debug_ranges  0x0000000000000528       0x88 build/ixmatix/hid.o
+
+.debug_line     0x0000000000000000     0x241a
+ .debug_line    0x0000000000000000      0x23f build/ixmatix/flash_samd21.o
+ .debug_line    0x000000000000023f      0x245 build/ixmatix/init_samd21.o
+ .debug_line    0x0000000000000484      0x196 build/ixmatix/startup_samd21.o
+ .debug_line    0x000000000000061a      0x3d3 build/ixmatix/usart_sam_ba.o
+ .debug_line    0x00000000000009ed      0x2c0 build/ixmatix/utils.o
+ .debug_line    0x0000000000000cad      0x4a7 build/ixmatix/cdc_enumerate.o
+ .debug_line    0x0000000000001154      0x26d build/ixmatix/fat.o
+ .debug_line    0x00000000000013c1      0x247 build/ixmatix/main.o
+ .debug_line    0x0000000000001608      0x46d build/ixmatix/msc.o
+ .debug_line    0x0000000000001a75      0x298 build/ixmatix/sam_ba_monitor.o
+ .debug_line    0x0000000000001d0d      0x246 build/ixmatix/hid.o
+ .debug_line    0x0000000000001f53       0x69 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+ .debug_line    0x0000000000001fbc      0x181 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_line    0x000000000000213d      0x16d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .debug_line    0x00000000000022aa      0x170 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen-stub.o)
+
+.debug_str      0x0000000000000000     0x4018
+ .debug_str     0x0000000000000000      0x6e6 build/ixmatix/flash_samd21.o
+                                        0x7e9 (size before relaxing)
+ .debug_str     0x00000000000006e6      0x6f4 build/ixmatix/init_samd21.o
+                                        0xe79 (size before relaxing)
+ .debug_str     0x0000000000000dda      0xedd build/ixmatix/startup_samd21.o
+                                       0x1343 (size before relaxing)
+ .debug_str     0x0000000000001cb7      0xc48 build/ixmatix/usart_sam_ba.o
+                                       0x13b4 (size before relaxing)
+ .debug_str     0x00000000000028ff       0xc3 build/ixmatix/utils.o
+                                        0x854 (size before relaxing)
+ .debug_str     0x00000000000029c2      0x423 build/ixmatix/cdc_enumerate.o
+                                       0x15ff (size before relaxing)
+ .debug_str     0x0000000000002de5      0x29f build/ixmatix/fat.o
+                                        0x8c2 (size before relaxing)
+ .debug_str     0x0000000000003084       0x86 build/ixmatix/main.o
+                                        0xae3 (size before relaxing)
+ .debug_str     0x000000000000310a      0x9dc build/ixmatix/msc.o
+                                       0x1886 (size before relaxing)
+ .debug_str     0x0000000000003ae6       0xa9 build/ixmatix/sam_ba_monitor.o
+                                        0x77c (size before relaxing)
+ .debug_str     0x0000000000003b8f      0x1ff build/ixmatix/hid.o
+                                        0x8ad (size before relaxing)
+ .debug_str     0x0000000000003d8e      0x1ac /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+                                        0x5e5 (size before relaxing)
+ .debug_str     0x0000000000003f3a       0xa0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+                                        0x5c0 (size before relaxing)
+ .debug_str     0x0000000000003fda       0x3e /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen-stub.o)
+                                        0x5d1 (size before relaxing)
+
+.comment        0x0000000000000000       0x31
+ .comment       0x0000000000000000       0x31 build/ixmatix/flash_samd21.o
+                                         0x32 (size before relaxing)
+ .comment       0x0000000000000031       0x32 build/ixmatix/init_samd21.o
+ .comment       0x0000000000000031       0x32 build/ixmatix/startup_samd21.o
+ .comment       0x0000000000000031       0x32 build/ixmatix/usart_sam_ba.o
+ .comment       0x0000000000000031       0x32 build/ixmatix/utils.o
+ .comment       0x0000000000000031       0x32 build/ixmatix/cdc_enumerate.o
+ .comment       0x0000000000000031       0x32 build/ixmatix/fat.o
+ .comment       0x0000000000000031       0x32 build/ixmatix/main.o
+ .comment       0x0000000000000031       0x32 build/ixmatix/msc.o
+ .comment       0x0000000000000031       0x32 build/ixmatix/sam_ba_monitor.o
+ .comment       0x0000000000000031       0x32 build/ixmatix/hid.o
+ .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen-stub.o)
+
+.ARM.attributes
+                0x0000000000000000       0x32
+ .ARM.attributes
+                0x0000000000000000       0x32 build/ixmatix/flash_samd21.o
+ .ARM.attributes
+                0x0000000000000032       0x32 build/ixmatix/init_samd21.o
+ .ARM.attributes
+                0x0000000000000064       0x32 build/ixmatix/startup_samd21.o
+ .ARM.attributes
+                0x0000000000000096       0x32 build/ixmatix/usart_sam_ba.o
+ .ARM.attributes
+                0x00000000000000c8       0x32 build/ixmatix/utils.o
+ .ARM.attributes
+                0x00000000000000fa       0x32 build/ixmatix/cdc_enumerate.o
+ .ARM.attributes
+                0x000000000000012c       0x32 build/ixmatix/fat.o
+ .ARM.attributes
+                0x000000000000015e       0x32 build/ixmatix/main.o
+ .ARM.attributes
+                0x0000000000000190       0x32 build/ixmatix/msc.o
+ .ARM.attributes
+                0x00000000000001c2       0x32 build/ixmatix/sam_ba_monitor.o
+ .ARM.attributes
+                0x00000000000001f4       0x32 build/ixmatix/hid.o
+ .ARM.attributes
+                0x0000000000000226       0x1e /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x0000000000000244       0x2c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000000000000270       0x2c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000000000000029c       0x2c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen-stub.o)
+
+.debug_frame    0x0000000000000000      0x978
+ .debug_frame   0x0000000000000000       0xb0 build/ixmatix/flash_samd21.o
+ .debug_frame   0x00000000000000b0       0x68 build/ixmatix/init_samd21.o
+ .debug_frame   0x0000000000000118       0x4c build/ixmatix/startup_samd21.o
+ .debug_frame   0x0000000000000164      0x184 build/ixmatix/usart_sam_ba.o
+ .debug_frame   0x00000000000002e8       0xd0 build/ixmatix/utils.o
+ .debug_frame   0x00000000000003b8      0x1d0 build/ixmatix/cdc_enumerate.o
+ .debug_frame   0x0000000000000588       0x68 build/ixmatix/fat.o
+ .debug_frame   0x00000000000005f0       0x34 build/ixmatix/main.o
+ .debug_frame   0x0000000000000624      0x174 build/ixmatix/msc.o
+ .debug_frame   0x0000000000000798       0x98 build/ixmatix/sam_ba_monitor.o
+ .debug_frame   0x0000000000000830       0xc0 build/ixmatix/hid.o
+ .debug_frame   0x00000000000008f0       0x30 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000000920       0x30 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000950       0x28 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen-stub.o)
+
+Cross Reference Table
+
+Symbol                                            File
+AC_Handler                                        build/ixmatix/startup_samd21.o
+ADC_Handler                                       build/ixmatix/startup_samd21.o
+AT91F_InitUSB                                     build/ixmatix/cdc_enumerate.o
+AT91F_USB_SendZlp                                 build/ixmatix/cdc_enumerate.o
+DAC_Handler                                       build/ixmatix/startup_samd21.o
+DMAC_Handler                                      build/ixmatix/startup_samd21.o
+Dummy_Handler                                     build/ixmatix/startup_samd21.o
+EIC_Handler                                       build/ixmatix/startup_samd21.o
+EVSYS_Handler                                     build/ixmatix/startup_samd21.o
+HardFault_Handler                                 build/ixmatix/startup_samd21.o
+I2S_Handler                                       build/ixmatix/startup_samd21.o
+NMI_Handler                                       build/ixmatix/startup_samd21.o
+NVMCTRL_Handler                                   build/ixmatix/startup_samd21.o
+PM_Handler                                        build/ixmatix/startup_samd21.o
+PTC_Handler                                       build/ixmatix/startup_samd21.o
+PendSV_Handler                                    build/ixmatix/startup_samd21.o
+RGBLED_set_color                                  build/ixmatix/utils.o
+                                                  build/ixmatix/sam_ba_monitor.o
+                                                  build/ixmatix/main.o
+RTC_Handler                                       build/ixmatix/startup_samd21.o
+Reset_Handler                                     build/ixmatix/startup_samd21.o
+SERCOM0_Handler                                   build/ixmatix/startup_samd21.o
+SERCOM1_Handler                                   build/ixmatix/startup_samd21.o
+SERCOM2_Handler                                   build/ixmatix/startup_samd21.o
+SERCOM3_Handler                                   build/ixmatix/startup_samd21.o
+SERCOM4_Handler                                   build/ixmatix/startup_samd21.o
+SERCOM5_Handler                                   build/ixmatix/startup_samd21.o
+SVC_Handler                                       build/ixmatix/startup_samd21.o
+SYSCTRL_Handler                                   build/ixmatix/startup_samd21.o
+SysTick_Handler                                   build/ixmatix/init_samd21.o
+TC3_Handler                                       build/ixmatix/startup_samd21.o
+TC4_Handler                                       build/ixmatix/startup_samd21.o
+TC5_Handler                                       build/ixmatix/startup_samd21.o
+TCC0_Handler                                      build/ixmatix/startup_samd21.o
+TCC1_Handler                                      build/ixmatix/startup_samd21.o
+TCC2_Handler                                      build/ixmatix/startup_samd21.o
+USB_Handler                                       build/ixmatix/startup_samd21.o
+USB_Ok                                            build/ixmatix/cdc_enumerate.o
+                                                  build/ixmatix/msc.o
+                                                  build/ixmatix/main.o
+USB_Read                                          build/ixmatix/cdc_enumerate.o
+USB_ReadBlocking                                  build/ixmatix/cdc_enumerate.o
+                                                  build/ixmatix/msc.o
+USB_ReadCore                                      build/ixmatix/cdc_enumerate.o
+                                                  build/ixmatix/hid.o
+                                                  build/ixmatix/msc.o
+USB_Write                                         build/ixmatix/cdc_enumerate.o
+                                                  build/ixmatix/msc.o
+USB_WriteCore                                     build/ixmatix/cdc_enumerate.o
+                                                  build/ixmatix/hid.o
+                                                  build/ixmatix/msc.o
+WDT_Handler                                       build/ixmatix/startup_samd21.o
+__gnu_thumb1_case_uqi                             /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+                                                  build/ixmatix/hid.o
+_erelocate                                        build/ixmatix/startup_samd21.o
+_estack                                           build/ixmatix/startup_samd21.o
+_etext                                            build/ixmatix/startup_samd21.o
+_ezero                                            build/ixmatix/startup_samd21.o
+_sfixed                                           build/ixmatix/startup_samd21.o
+_srelocate                                        build/ixmatix/startup_samd21.o
+_szero                                            build/ixmatix/startup_samd21.o
+add_crc                                           build/ixmatix/usart_sam_ba.o
+                                                  build/ixmatix/hid.o
+                                                  build/ixmatix/sam_ba_monitor.o
+arrowLogo                                         build/ixmatix/images.o
+b_sam_ba_interface_usart                          build/ixmatix/sam_ba_monitor.o
+b_sharp_received                                  build/ixmatix/usart_sam_ba.o
+binfo                                             build/ixmatix/msc.o
+buffer_rx_usart                                   build/ixmatix/usart_sam_ba.o
+buffer_tx_usart                                   build/ixmatix/usart_sam_ba.o
+call_applet                                       build/ixmatix/sam_ba_monitor.o
+cdc_is_rx_ready                                   build/ixmatix/cdc_enumerate.o
+cdc_read_buf                                      build/ixmatix/cdc_enumerate.o
+                                                  build/ixmatix/sam_ba_monitor.o
+cdc_read_buf_xmd                                  build/ixmatix/cdc_enumerate.o
+                                                  build/ixmatix/sam_ba_monitor.o
+cdc_write_buf                                     build/ixmatix/cdc_enumerate.o
+                                                  build/ixmatix/sam_ba_monitor.o
+cdc_write_buf_xmd                                 build/ixmatix/cdc_enumerate.o
+                                                  build/ixmatix/sam_ba_monitor.o
+cfgDescriptor                                     build/ixmatix/cdc_enumerate.o
+command                                           build/ixmatix/sam_ba_monitor.o
+copy_words                                        build/ixmatix/flash_samd21.o
+                                                  build/ixmatix/hid.o
+ctrlOutCache                                      build/ixmatix/cdc_enumerate.o
+current_number                                    build/ixmatix/sam_ba_monitor.o
+data                                              build/ixmatix/sam_ba_monitor.o
+delay                                             build/ixmatix/utils.o
+                                                  build/ixmatix/main.o
+devDescriptor                                     build/ixmatix/cdc_enumerate.o
+endpointCache                                     build/ixmatix/cdc_enumerate.o
+error_timeout                                     build/ixmatix/usart_sam_ba.o
+exception_table                                   build/ixmatix/startup_samd21.o
+fileLogo                                          build/ixmatix/images.o
+flash_erase_row                                   build/ixmatix/flash_samd21.o
+flash_erase_to_end                                build/ixmatix/flash_samd21.o
+                                                  build/ixmatix/sam_ba_monitor.o
+flash_write                                       build/ixmatix/flash_samd21.o
+flash_write_row                                   build/ixmatix/flash_samd21.o
+                                                  build/ixmatix/hid.o
+                                                  build/ixmatix/fat.o
+flash_write_words                                 build/ixmatix/flash_samd21.o
+                                                  build/ixmatix/sam_ba_monitor.o
+font8                                             build/ixmatix/images.o
+g_interrupt_enabled                               build/ixmatix/init_samd21.o
+getPacket                                         build/ixmatix/usart_sam_ba.o
+handoverPrep                                      build/ixmatix/msc.o
+                                                  build/ixmatix/hid.o
+hidCfgDescriptor                                  build/ixmatix/cdc_enumerate.o
+hidDescriptor                                     build/ixmatix/cdc_enumerate.o
+hidHandoverLoop                                   build/ixmatix/hid.o
+                                                  build/ixmatix/msc.o
+i                                                 build/ixmatix/sam_ba_monitor.o
+idx_rx_read                                       build/ixmatix/usart_sam_ba.o
+idx_rx_write                                      build/ixmatix/usart_sam_ba.o
+idx_tx_read                                       build/ixmatix/usart_sam_ba.o
+idx_tx_write                                      build/ixmatix/usart_sam_ba.o
+indexFile                                         build/ixmatix/fat.o
+infoUf2File                                       build/ixmatix/fat.o
+                                                  build/ixmatix/hid.o
+                                                  build/ixmatix/msc.o
+j                                                 build/ixmatix/sam_ba_monitor.o
+led_init                                          build/ixmatix/utils.o
+                                                  build/ixmatix/main.o
+led_signal                                        build/ixmatix/utils.o
+                                                  build/ixmatix/sam_ba_monitor.o
+                                                  build/ixmatix/msc.o
+led_tick                                          build/ixmatix/utils.o
+                                                  build/ixmatix/init_samd21.o
+led_tick_step                                     build/ixmatix/utils.o
+                                                  build/ixmatix/main.o
+length                                            build/ixmatix/sam_ba_monitor.o
+main                                              build/ixmatix/main.o
+                                                  build/ixmatix/startup_samd21.o
+memcpy                                            /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+                                                  build/ixmatix/hid.o
+                                                  build/ixmatix/sam_ba_monitor.o
+                                                  build/ixmatix/msc.o
+                                                  build/ixmatix/fat.o
+                                                  build/ixmatix/cdc_enumerate.o
+memset                                            /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+                                                  build/ixmatix/hid.o
+                                                  build/ixmatix/msc.o
+                                                  build/ixmatix/fat.o
+                                                  build/ixmatix/cdc_enumerate.o
+mode_of_transfer                                  build/ixmatix/usart_sam_ba.o
+mscReset                                          build/ixmatix/msc.o
+msc_reset                                         build/ixmatix/msc.o
+padded_memcpy                                     build/ixmatix/fat.o
+                                                  build/ixmatix/msc.o
+panic                                             build/ixmatix/utils.o
+pendriveLogo                                      build/ixmatix/images.o
+process_core                                      build/ixmatix/hid.o
+process_hid                                       build/ixmatix/hid.o
+                                                  build/ixmatix/msc.o
+process_msc                                       build/ixmatix/msc.o
+                                                  build/ixmatix/sam_ba_monitor.o
+ptr                                               build/ixmatix/sam_ba_monitor.o
+ptr_data                                          build/ixmatix/sam_ba_monitor.o
+put_uint32                                        build/ixmatix/sam_ba_monitor.o
+read_block                                        build/ixmatix/fat.o
+                                                  build/ixmatix/msc.o
+recv_hf2                                          build/ixmatix/hid.o
+resetHorizon                                      build/ixmatix/utils.o
+                                                  build/ixmatix/main.o
+                                                  build/ixmatix/fat.o
+resetIntoApp                                      build/ixmatix/utils.o
+                                                  build/ixmatix/hid.o
+                                                  build/ixmatix/msc.o
+resetIntoBootloader                               build/ixmatix/utils.o
+                                                  build/ixmatix/hid.o
+                                                  build/ixmatix/msc.o
+reset_ep                                          build/ixmatix/cdc_enumerate.o
+                                                  build/ixmatix/msc.o
+sam_ba_monitor_init                               build/ixmatix/sam_ba_monitor.o
+sam_ba_monitor_run                                build/ixmatix/sam_ba_monitor.o
+                                                  build/ixmatix/main.o
+sam_ba_putdata_term                               build/ixmatix/sam_ba_monitor.o
+send_hf2                                          build/ixmatix/hid.o
+send_hf2_response                                 build/ixmatix/hid.o
+size_of_data                                      build/ixmatix/usart_sam_ba.o
+sp                                                build/ixmatix/sam_ba_monitor.o
+stall_ep                                          build/ixmatix/cdc_enumerate.o
+                                                  build/ixmatix/msc.o
+strlen                                            /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-strlen-stub.o)
+                                                  build/ixmatix/hid.o
+                                                  build/ixmatix/fat.o
+                                                  build/ixmatix/cdc_enumerate.o
+system_init                                       build/ixmatix/init_samd21.o
+                                                  build/ixmatix/main.o
+timerHigh                                         build/ixmatix/utils.o
+                                                  build/ixmatix/main.o
+                                                  build/ixmatix/fat.o
+timerTick                                         build/ixmatix/utils.o
+                                                  build/ixmatix/cdc_enumerate.o
+try_read_cbw                                      build/ixmatix/msc.o
+u32tmp                                            build/ixmatix/sam_ba_monitor.o
+uart_basic_init                                   build/ixmatix/uart_driver.o
+                                                  build/ixmatix/usart_sam_ba.o
+uart_disable                                      build/ixmatix/uart_driver.o
+                                                  build/ixmatix/usart_sam_ba.o
+uart_drv_error_flag                               build/ixmatix/uart_driver.o
+uart_get_sercom_index                             build/ixmatix/uart_driver.o
+                                                  build/ixmatix/usart_sam_ba.o
+uart_read_buffer_polled                           build/ixmatix/uart_driver.o
+uart_read_byte                                    build/ixmatix/uart_driver.o
+                                                  build/ixmatix/usart_sam_ba.o
+uart_write_buffer_polled                          build/ixmatix/uart_driver.o
+uart_write_byte                                   build/ixmatix/uart_driver.o
+                                                  build/ixmatix/usart_sam_ba.o
+udd_ep_set_halt                                   build/ixmatix/msc.o
+udi_msc_csw_send                                  build/ixmatix/msc.o
+usart_close                                       build/ixmatix/usart_sam_ba.o
+usart_getc                                        build/ixmatix/usart_sam_ba.o
+usart_getdata                                     build/ixmatix/usart_sam_ba.o
+usart_getdata_xmd                                 build/ixmatix/usart_sam_ba.o
+usart_is_rx_ready                                 build/ixmatix/usart_sam_ba.o
+usart_open                                        build/ixmatix/usart_sam_ba.o
+usart_putc                                        build/ixmatix/usart_sam_ba.o
+usart_putdata                                     build/ixmatix/usart_sam_ba.o
+usart_putdata_xmd                                 build/ixmatix/usart_sam_ba.o
+usart_readc                                       build/ixmatix/usart_sam_ba.o
+usart_sharp_received                              build/ixmatix/usart_sam_ba.o
+usb_endpoint_table                                build/ixmatix/cdc_enumerate.o
+usb_init                                          build/ixmatix/cdc_enumerate.o
+                                                  build/ixmatix/main.o
+writeNum                                          build/ixmatix/utils.o
+                                                  build/ixmatix/sam_ba_monitor.o
+                                                  build/ixmatix/cdc_enumerate.o
+write_block                                       build/ixmatix/fat.o
+                                                  build/ixmatix/msc.o
