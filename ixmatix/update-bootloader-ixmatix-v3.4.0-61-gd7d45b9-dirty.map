@@ -341,7 +341,7 @@ END GROUP
                 0x0000000020002310                _estack = .
                 0x0000000020002310                . = ALIGN (0x4)
                 0x0000000020002310                _end = .
-OUTPUT(build/ixmatix/update-bootloader-ixmatix-v3.4.0-60-g5610e7c.elf elf32-littlearm)
+OUTPUT(build/ixmatix/update-bootloader-ixmatix-v3.4.0-61-gd7d45b9-dirty.elf elf32-littlearm)
 
 .debug_info     0x0000000000000000     0xd86b
  .debug_info    0x0000000000000000      0xf8f build/ixmatix/flash_samd21.o

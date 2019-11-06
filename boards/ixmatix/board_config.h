@@ -11,7 +11,7 @@
 #define INDEX_URL "http://ixmatix.com/"
 
 #define USB_VID 0x1209   // Atmel
-#define USB_PID 0x2402   // Generic HID device
+#define USB_PID 0x2407   // Generic HID device
 
 #define BOARD_ID "ixmatix-samd21g18a"
 

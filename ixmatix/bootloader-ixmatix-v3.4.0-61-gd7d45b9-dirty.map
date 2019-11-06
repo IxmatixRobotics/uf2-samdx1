@@ -232,7 +232,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libn
 END GROUP
                 0x0000000000002000                STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:DEFINED (__stack_size__)?__stack_size__:0x2000
 
-.text           0x0000000000000000     0x1ddc
+.text           0x0000000000000000     0x1de4
                 0x0000000000000000                . = ALIGN (0x4)
                 0x0000000000000000                _sfixed = .
  *(.vectors .vectors.*)
@@ -473,59 +473,59 @@ END GROUP
  *fill*         0x0000000000001d09        0x3 
  .rodata.info   0x0000000000001d0c       0x30 build/ixmatix/fat.o
  .rodata.infoUf2File
-                0x0000000000001d3c       0x59 build/ixmatix/fat.o
+                0x0000000000001d3c       0x5f build/ixmatix/fat.o
                 0x0000000000001d3c                infoUf2File
- .rodata        0x0000000000001d95        0xc build/ixmatix/msc.o
+ .rodata        0x0000000000001d9b        0xc build/ixmatix/msc.o
  .rodata.process_msc.str1.1
-                0x0000000000001da1        0x8 build/ixmatix/msc.o
+                0x0000000000001da7        0x8 build/ixmatix/msc.o
  .rodata.fullVersion
-                0x0000000000001da1       0x2a build/ixmatix/sam_ba_monitor.o
+                0x0000000000001da7       0x2a build/ixmatix/sam_ba_monitor.o
  .rodata.sam_ba_monitor_run.str1.1
-                0x0000000000001dcb       0x10 build/ixmatix/sam_ba_monitor.o
+                0x0000000000001dd1       0x10 build/ixmatix/sam_ba_monitor.o
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000000001ddc                . = ALIGN (0x4)
- *fill*         0x0000000000001ddb        0x1 
+                0x0000000000001de4                . = ALIGN (0x4)
+ *fill*         0x0000000000001de1        0x3 
  *(.init)
-                0x0000000000001ddc                . = ALIGN (0x4)
-                0x0000000000001ddc                __preinit_array_start = .
+                0x0000000000001de4                . = ALIGN (0x4)
+                0x0000000000001de4                __preinit_array_start = .
  *(.preinit_array)
-                0x0000000000001ddc                __preinit_array_end = .
-                0x0000000000001ddc                . = ALIGN (0x4)
-                0x0000000000001ddc                __init_array_start = .
+                0x0000000000001de4                __preinit_array_end = .
+                0x0000000000001de4                . = ALIGN (0x4)
+                0x0000000000001de4                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
-                0x0000000000001ddc                __init_array_end = .
-                0x0000000000001ddc                . = ALIGN (0x4)
+                0x0000000000001de4                __init_array_end = .
+                0x0000000000001de4                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x0000000000001ddc                . = ALIGN (0x4)
-                0x0000000000001ddc                _efixed = .
+                0x0000000000001de4                . = ALIGN (0x4)
+                0x0000000000001de4                _efixed = .
                 [!provide]                        PROVIDE (__exidx_start, .)
 
-.vfp11_veneer   0x0000000000001ddc        0x0
- .vfp11_veneer  0x0000000000001ddc        0x0 linker stubs
+.vfp11_veneer   0x0000000000001de4        0x0
+ .vfp11_veneer  0x0000000000001de4        0x0 linker stubs
 
-.v4_bx          0x0000000000001ddc        0x0
- .v4_bx         0x0000000000001ddc        0x0 linker stubs
+.v4_bx          0x0000000000001de4        0x0
+ .v4_bx         0x0000000000001de4        0x0 linker stubs
 
-.iplt           0x0000000000001ddc        0x0
- .iplt          0x0000000000001ddc        0x0 build/ixmatix/flash_samd21.o
+.iplt           0x0000000000001de4        0x0
+ .iplt          0x0000000000001de4        0x0 build/ixmatix/flash_samd21.o
 
-.igot.plt       0x0000000000001ddc        0x0
- .igot.plt      0x0000000000001ddc        0x0 build/ixmatix/flash_samd21.o
+.igot.plt       0x0000000000001de4        0x0
+ .igot.plt      0x0000000000001de4        0x0 build/ixmatix/flash_samd21.o
 
-.rel.dyn        0x0000000000001ddc        0x0
- .rel.iplt      0x0000000000001ddc        0x0 build/ixmatix/flash_samd21.o
+.rel.dyn        0x0000000000001de4        0x0
+ .rel.iplt      0x0000000000001de4        0x0 build/ixmatix/flash_samd21.o
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
                 [!provide]                        PROVIDE (__exidx_end, .)
-                0x0000000000001ddc                . = ALIGN (0x4)
-                0x0000000000001ddc                _etext = .
+                0x0000000000001de4                . = ALIGN (0x4)
+                0x0000000000001de4                _etext = .
 
-.relocate       0x0000000020000000      0x1cc load address 0x0000000000001ddc
+.relocate       0x0000000020000000      0x1cc load address 0x0000000000001de4
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _srelocate = .
  *(.ramfunc .ramfunc.*)
@@ -558,7 +558,7 @@ END GROUP
                 0x00000000200001cc                . = ALIGN (0x4)
                 0x00000000200001cc                _erelocate = .
 
-.bss            0x00000000200001cc      0xc08 load address 0x0000000000001fa8
+.bss            0x00000000200001cc      0xc08 load address 0x0000000000001fb0
                 0x00000000200001cc                . = ALIGN (0x4)
                 0x00000000200001cc                _sbss = .
                 0x00000000200001cc                _szero = .
@@ -622,7 +622,7 @@ END GROUP
                 0x0000000020000dd4                _ebss = .
                 0x0000000020000dd4                _ezero = .
 
-.stack          0x0000000020000dd4     0x2004 load address 0x0000000000002bb0
+.stack          0x0000000020000dd4     0x2004 load address 0x0000000000002bb8
                 0x0000000020000dd8                . = ALIGN (0x8)
  *fill*         0x0000000020000dd4        0x4 
                 0x0000000020000dd8                _sstack = .
@@ -638,7 +638,7 @@ END GROUP
  *(.binfo)
  .binfo         0x0000000000001ff0       0x10 build/ixmatix/msc.o
                 0x0000000000001ff0                binfo
-OUTPUT(build/ixmatix/bootloader-ixmatix-v3.4.0-60-g5610e7c.elf elf32-littlearm)
+OUTPUT(build/ixmatix/bootloader-ixmatix-v3.4.0-61-gd7d45b9-dirty.elf elf32-littlearm)
 
 .debug_info     0x0000000000000000    0x19986
  .debug_info    0x0000000000000000      0xf8f build/ixmatix/flash_samd21.o
